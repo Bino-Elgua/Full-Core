@@ -1,7 +1,7 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { useStore } from '../store';
 import { SonicOrb, SonicOrbRef } from '../components/SonicOrb';
-import { sonicChat } from '../services/geminiService';
+import { sonicChat } from '../services/geminiOnlyService';
 import { Send, User, Bot, Sparkles, VolumeX, AlertCircle, RefreshCw } from 'lucide-react';
 
 interface Message {

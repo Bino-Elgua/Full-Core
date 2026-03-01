@@ -6,7 +6,7 @@ import { TrendPulse } from '../components/TrendPulse';
 import { BrandDNA, ProcessingState } from '../types';
 import { Link, useNavigate } from 'react-router-dom';
 import { enhanceBrandExtraction } from '../services/enhancedExtractionService';
-import { checkApiKey } from '../services/geminiService';
+import { checkApiKey } from '../services/geminiOnlyService';
 
 // Sub-components/pages for tabs
 import BrandSimulatorPage from './BrandSimulatorPage';

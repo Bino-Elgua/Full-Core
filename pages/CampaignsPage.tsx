@@ -4,7 +4,7 @@ import { useStore } from '../store';
 import { ProcessingState, Campaign, CampaignAsset, CampaignPRD, CampaignOverview, UserStory } from '../types';
 import { createCampaignPRD } from '../services/campaignPRDService';
 import { AutonomousCampaignEngine } from '../services/autonomousCampaignService';
-import { generateVideo } from '../services/videoService';
+import { generateVideo } from '../services/videoGenerationService';
 import { 
   Sparkles, Scroll, Play, ShieldCheck, 
   AlertTriangle, Calendar, CheckCircle2,
