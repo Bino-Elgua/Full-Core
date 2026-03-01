@@ -1,6 +1,6 @@
 
 import { BrandDNA, CampaignPRD, CampaignAsset, UserStory } from "../types";
-import { generateAssetFromStory, generateCampaignImage } from "./geminiService";
+import { generateAssetFromStory, generateCampaignImage } from "./geminiOnlyService";
 import { healAsset } from "./selfHealingService";
 import { universalAiService } from "./universalAiService";
 import { imageGenerationService } from "./imageGenerationService";

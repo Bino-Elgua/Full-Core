@@ -1,6 +1,6 @@
 
 import { BrandDNA, CampaignAsset, UserStory, HealingReport } from "../types";
-import { validateAssetStrict } from "./geminiService";
+import { validateAssetStrict } from "./geminiOnlyService";
 
 /**
  * Neural Validation

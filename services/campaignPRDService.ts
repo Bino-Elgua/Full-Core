@@ -1,6 +1,6 @@
 
 import { BrandDNA, CampaignPRD, CampaignOverview } from "../types";
-import { generateAdvancedPRD } from "./geminiService";
+import { generateAdvancedPRD } from "./geminiOnlyService";
 import { useStore } from "../store";
 import { universalAiService } from "./universalAiService";
 
